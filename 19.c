@@ -4,7 +4,6 @@ int main(){
     scanf("%d",&n);
 
     k = n*2-2;
-    //upper part
     for(row=n; row>=1; row--){
 
         for(col=n; col>=row; col--) printf("*");
@@ -20,7 +19,6 @@ int main(){
     }
 
         k+=2;
-        //lower part
         for(row=1; row<=n; row++){
             if(row==1){
                 k+=2;
