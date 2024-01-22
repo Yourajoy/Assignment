@@ -2,8 +2,6 @@
 int main(){
     int n,row,col;
     scanf("%d",&n);
-
-    //upper part
     for(row=1; row<=n; row++){
 
         for(col=n-1; col>=row; col--) printf(" ");
@@ -19,8 +17,6 @@ int main(){
         printf("\n");
 
     }
-
-    //Lawer part
     for(row=n-1; row>=1; row--){
 
         for(col=n-1; col>=row; col--) printf(" ");
